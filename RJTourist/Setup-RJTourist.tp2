@@ -1,0 +1,59 @@
+BACKUP ~RJTourist/Backup~
+AUTHOR ~nullset@sympatico.ca~
+VERSION ~v1~
+
+README ~RJTourist/Readme-RJTourist.txt~
+
+AUTO_TRA ~RJTourist/Language/%s~
+LANGUAGE ~English~
+         ~English~
+         ~RJTourist/Language/English/setup.tra~
+
+BEGIN @0
+REQUIRE_PREDICATE GAME_IS ~BG2EE~ @1
+
+// TOB Tourist setup
+
+COPY ~RJTourist/RJTourist.xxx~ ~override/RJTourist.xxx~ // Flag presence
+
+COMPILE ~RJTourist/Dialogues/RJGUIDE.d~
+
+APPEND ~itemdial.2da~
+~RJGUIDE       5689   RJGUIDE~
+UNLESS ~RJGUIDE~
+
+EXTEND_TOP ~AR6400.bcs~ ~RJTourist/Scripts/AR6400.baf~
+
+COMPILE ~RJTourist/Scripts/RJTCUT00.baf~ // Tourist cutscenes
+	~RJTourist/Scripts/RJTCUT01.baf~
+	~RJTourist/Scripts/RJTCUT02.baf~
+	~RJTourist/Scripts/RJTCUT03.baf~
+	~RJTourist/Scripts/RJTCUT04.baf~
+	~RJTourist/Scripts/RJTCUT05.baf~
+	~RJTourist/Scripts/RJTCUT06.baf~
+	~RJTourist/Scripts/RJTCUT07.baf~
+	~RJTourist/Scripts/RJTCUT08.baf~
+	~RJTourist/Scripts/RJTCUT09.baf~
+	~RJTourist/Scripts/RJTCUT10.baf~
+	~RJTourist/Scripts/RJTCUT11.baf~
+	~RJTourist/Scripts/RJTCUT12.baf~
+	~RJTourist/Scripts/RJTCUT13.baf~
+	~RJTourist/Scripts/RJTCUT14.baf~
+	~RJTourist/Scripts/RJTCUT15.baf~
+	~RJTourist/Scripts/RJTCUT16.baf~
+	~RJTourist/Scripts/RJTCUT17.baf~
+	~RJTourist/Scripts/RJTCUT18.baf~
+	~RJTourist/Scripts/RJTCUT19.baf~
+	~RJTourist/Scripts/RJTCUT20.baf~
+	~RJTourist/Scripts/RJTCUT21.baf~
+	~RJTourist/Scripts/RJTCUT22.baf~
+	~RJTourist/Scripts/RJTCUT23.baf~
+
+COPY ~RJTourist/Items/RJGUIDE.itm~ ~override/RJGUIDE.itm~
+SAY NAME1 @10
+SAY NAME2 @10
+SAY UNIDENTIFIED_DESC @11
+SAY DESC @11
+
+COPY_EXISTING ~25spell.sto~ ~override/25spell.sto~
+ADD_STORE_ITEM ~RJGUIDE~ #10 #0 #0 ~IDENTIFIED~ #1

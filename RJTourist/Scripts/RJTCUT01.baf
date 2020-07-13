@@ -1,0 +1,20 @@
+IF
+ True()
+THEN
+ RESPONSE #100
+    CutSceneID(Player1)
+    SmallWait(3)
+    FadeToColor([30.0],0)
+    Wait(1)
+    LeaveAreaLUAPanic("AR0020","",[673.586],0)
+    LeaveAreaLUA("AR0020","",[673.586],0)
+    ActionOverride(Player2,LeaveAreaLUA("AR0020","",[644.567],0))
+    ActionOverride(Player3,LeaveAreaLUA("AR0020","",[718.559],0))
+    ActionOverride(Player4,LeaveAreaLUA("AR0020","",[689.529],0))
+    ActionOverride(Player5,LeaveAreaLUA("AR0020","",[772.527],0))
+    ActionOverride(Player6,LeaveAreaLUA("AR0020","",[747.495],0))
+    Wait(3)
+    FadeFromColor([20.0],0)
+    Wait(1)
+    EndCutSceneMode()
+END

@@ -1,0 +1,9 @@
+
+IF
+G("RJTeleport",0)
+GGT("Chapter",7)
+THEN
+RESPONSE #100
+SG("RJTeleport",1)
+Continue()
+END
