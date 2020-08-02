@@ -5,6 +5,31 @@ VERSION ~v1~
 README ~RJTourist/Readme-RJTourist.txt~
 AUTO_TRA ~RJTourist/Language/%s/D~
 
+ALWAYS
+	ACTION_IF ENGINE_IS ~BG2EE EET~ BEGIN
+		ACTION_DEFINE_ASSOCIATIVE_ARRAY charsetsTable BEGIN
+			"german" => "CP1252"
+			"english" => "CP1252"
+			"french" => "CP1252"
+			"italian" => "CP1252"
+			"polish" => "CP1250"
+			"russian" => "CP1251"
+			"castilian" => "CP1252"
+		END
+		ACTION_DEFINE_ARRAY charsetsReloadArray BEGIN setup END
+		LAF ~HANDLE_CHARSETS~
+			INT_VAR
+			infer_charsets = 0
+			STR_VAR
+			tra_path = "RJTourist/Language"
+			iconv_path = "RJTourist/Bin/win32/iconv"
+			charset_table = charsetsTable
+			reload_array = charsetsReloadArray
+			noconvert_array = charsetsNoConvertArray
+		END
+	END
+END
+
 LANGUAGE ~English~
          ~English~
          ~RJTourist/Language/English/setup.tra~
@@ -13,10 +38,10 @@ LANGUAGE ~Polish (by morgan)~
          ~Polish~
          ~RJTourist/Language/Polish/setup.tra~
 
+
+// ToB Tourist setup
 BEGIN @0
 REQUIRE_PREDICATE GAME_IS ~ToB BGT BG2EE~ @1
-
-// TOB Tourist setup
 
 COPY ~RJTourist/RJTourist.xxx~ ~override/RJTourist.xxx~ // Flag presence
 
@@ -28,7 +53,8 @@ UNLESS ~RJGUIDE~
 
 EXTEND_TOP ~AR6400.bcs~ ~RJTourist/Scripts/AR6400.baf~
 
-COMPILE ~RJTourist/Scripts/RJTCUT00.baf~ // Tourist cutscenes
+// Tourist cutscenes
+COMPILE ~RJTourist/Scripts/RJTCUT00.baf~
 	~RJTourist/Scripts/RJTCUT01.baf~
 	~RJTourist/Scripts/RJTCUT02.baf~
 	~RJTourist/Scripts/RJTCUT03.baf~
