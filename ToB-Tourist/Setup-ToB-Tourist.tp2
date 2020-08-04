@@ -1,0 +1,89 @@
+BACKUP ~ToB-Tourist/Backup~
+AUTHOR ~nullset@sympatico.ca~
+VERSION ~v1~
+
+README ~ToB-Tourist/Readme-ToB-Tourist.txt~
+AUTO_TRA ~ToB-Tourist/Language/%s/D~
+
+ALWAYS
+	ACTION_IF ENGINE_IS ~BG2EE EET~ BEGIN
+		ACTION_DEFINE_ASSOCIATIVE_ARRAY charsetsTable BEGIN
+			"german" => "CP1252"
+			"english" => "CP1252"
+			"french" => "CP1252"
+			"italian" => "CP1252"
+			"polish" => "CP1250"
+			"russian" => "CP1251"
+			"castilian" => "CP1252"
+		END
+		ACTION_DEFINE_ARRAY charsetsReloadArray BEGIN setup END
+		LAF ~HANDLE_CHARSETS~
+			INT_VAR
+			infer_charsets = 0
+			STR_VAR
+			tra_path = "ToB-Tourist/Language"
+			iconv_path = "ToB-Tourist/Bin/win32/iconv"
+			charset_table = charsetsTable
+			reload_array = charsetsReloadArray
+			noconvert_array = charsetsNoConvertArray
+		END
+	END
+END
+
+LANGUAGE ~English~
+         ~English~
+         ~ToB-Tourist/Language/English/setup.tra~
+
+LANGUAGE ~Polish (by morgan)~
+         ~Polish~
+         ~ToB-Tourist/Language/Polish/setup.tra~
+
+
+// ToB Tourist setup
+BEGIN @0
+REQUIRE_PREDICATE GAME_IS ~ToB BGT BG2EE~ @1
+
+COPY ~ToB-Tourist/rjtourist.xxx~ ~override/RJTourist.xxx~ // Flag presence
+
+COMPILE ~ToB-Tourist/Dialogues/RJGUIDE.d~
+
+APPEND ~itemdial.2da~
+~RJGUIDE       5689   RJGUIDE~
+UNLESS ~RJGUIDE~
+
+EXTEND_TOP ~AR6400.bcs~ ~ToB-Tourist/Scripts/AR6400.baf~
+
+// Tourist cutscenes
+COMPILE ~ToB-Tourist/Scripts/RJTCUT00.baf~
+	~ToB-Tourist/Scripts/RJTCUT01.baf~
+	~ToB-Tourist/Scripts/RJTCUT02.baf~
+	~ToB-Tourist/Scripts/RJTCUT03.baf~
+	~ToB-Tourist/Scripts/RJTCUT04.baf~
+	~ToB-Tourist/Scripts/RJTCUT05.baf~
+	~ToB-Tourist/Scripts/RJTCUT06.baf~
+	~ToB-Tourist/Scripts/RJTCUT07.baf~
+	~ToB-Tourist/Scripts/RJTCUT08.baf~
+	~ToB-Tourist/Scripts/RJTCUT09.baf~
+	~ToB-Tourist/Scripts/RJTCUT10.baf~
+	~ToB-Tourist/Scripts/RJTCUT11.baf~
+	~ToB-Tourist/Scripts/RJTCUT12.baf~
+	~ToB-Tourist/Scripts/RJTCUT13.baf~
+	~ToB-Tourist/Scripts/RJTCUT14.baf~
+	~ToB-Tourist/Scripts/RJTCUT15.baf~
+	~ToB-Tourist/Scripts/RJTCUT16.baf~
+	~ToB-Tourist/Scripts/RJTCUT17.baf~
+	~ToB-Tourist/Scripts/RJTCUT18.baf~
+	~ToB-Tourist/Scripts/RJTCUT19.baf~
+	~ToB-Tourist/Scripts/RJTCUT20.baf~
+	~ToB-Tourist/Scripts/RJTCUT21.baf~
+	~ToB-Tourist/Scripts/RJTCUT22.baf~
+	~ToB-Tourist/Scripts/RJTCUT23.baf~
+
+COPY ~ToB-Tourist/Items/RJGUIDE.itm~ ~override/RJGUIDE.itm~
+	SAY NAME1 @10
+	SAY NAME2 @10
+	SAY UNIDENTIFIED_DESC @11
+	SAY DESC @11
+
+COPY_EXISTING ~25spell.sto~ ~override/25spell.sto~
+ADD_STORE_ITEM ~RJGUIDE~ #10 #0 #0 ~IDENTIFIED~ #1
