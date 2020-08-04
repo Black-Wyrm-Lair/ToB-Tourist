@@ -1,8 +1,9 @@
+// Original author: Ron Joyal <nullset@sympatico.ca>
 BACKUP ~ToB-Tourist/Backup~
-AUTHOR ~nullset@sympatico.ca~
+SUPPORT ~https://github.com/Roberciiik/ToB-Tourist/issues~
 VERSION ~v1~
 
-README ~ToB-Tourist/Readme-ToB-Tourist.txt~
+README ~ToB-Tourist/Docs/Redirect.html~
 AUTO_TRA ~ToB-Tourist/Language/%s/D~
 
 ALWAYS
