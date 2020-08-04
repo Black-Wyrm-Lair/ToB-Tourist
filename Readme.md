@@ -3,19 +3,17 @@
 Mod for Baldur's Gate II Enhanced Edition (BG2:EE), classic Baldur's Gate II (BG2) and Baldur's Gate Trilogy (BGT)
 
 A Ron Joyal project.
-Version 1
+Version 2
 
 ## Contents
 
-1. Introduction
-1. Installation
-1. General information
-1. Frequently Asked Questions (FAQ)
-1. Credits
-1. Tools
-1. Legal information
-
----
+1. [Introduction](#introduction)
+1. [Installation](#installation)
+1. [General information](#general-information)
+1. [Frequently Asked Questions (FAQ)](#frequently-asked-questions-faq)
+1. [Credits](#credits)
+1. [Tools](#tools)
+1. [Legal information](#legal-information)
 
 ### Introduction
 
@@ -25,21 +23,21 @@ I thought it would be a neat idea in ToB to be able to go back and tour SOA, jus
 
 Make sure that Baldur's Gate II or ANY game-related utilities are not running.
 
-To install the mod, unpack the archive into your game directory and run Setup-Tob-Tourist.exe.
+To install the mod, unpack the archive into your game directory and run `Setup-ToB-Tourist.exe`.
 
-To reinstall or uninstall the mod, re-run Setup-Tob-Tourist.exe in your game directory.
+To reinstall or uninstall the mod, re-run `Setup-ToB-Tourist.exe` in your game directory.
 
 ### General information
 
 This should be compatible with all WeiDU mods.
 
-If you encounter any problems or you have a question, please open an issue on the project's [github](https://github.com/Roberciiik/ToB-Tourist/issues) and I will do what I can to address the issue.
+If you encounter any problems or you have a question, please open an issue on the project's [Github](https://github.com/Roberciiik/ToB-Tourist/issues) and I will do what I can to address the issue.
 
-Oh, yes. The file RJTourist.xxx will be placed in the Override folder to test for the presence of this mod, should you feel the need.
+Oh, yes. The file `RJTourist.xxx` will be placed in the `Override` folder to test for the presence of this mod, should you feel the need.
 
 ### Frequently Asked Questions (FAQ)
 
-Q: ???
+Q: ??? <br/>
 A: What's to ask?
 
 ### Credits
@@ -64,9 +62,15 @@ ToB-Tourist was created with the following software:
 
 ### Version history
 
-Version 1
-- Initial release BG2EE compatible only.
-- Add SOA touring capability to ToB. After leaving Saradush and excluding the Pocket Plane, the Tourist Guide will help you to teleport to the standard SOA areas, excluding quest specific areas. Return is either via book to Watcher's Keep, or area edge which by now is the ToB map areas; note that you cannot return via area edge to your initial point. Now, why you should want to do this is a good question to which I have as yet no answer. Play with it and let me know what you find out! (It seemed like a good idea at the time.) You can use PC's Pocket Plane ability but, by this time, the Pocket Plane exit will only return to your exit point in SOA. Stuff cached in containers in SOA will be there in ToB. I dealt with Mencar Pebblecrusher in ToB. (So, if you leave unfinished business in SOA...)
+- Version 2
+    - Added backward compatibility with classic BG2 (and BGT).
+    - Added Polish translations (thanks to morgan).
+    - Updated item's description to be more aligned to the game world.
+    - Uploaded project to Github.
+
+- Version 1
+    - Initial release BG2:EE compatible only.
+    - Add SOA touring capability to ToB. After leaving Saradush and excluding the Pocket Plane, the Tourist Guide will help you to teleport to the standard SOA areas, excluding quest specific areas. Return is either via book to Watcher's Keep, or area edge which by now is the ToB map areas; note that you cannot return via area edge to your initial point. Now, why you should want to do this is a good question to which I have as yet no answer. Play with it and let me know what you find out! (It seemed like a good idea at the time.) You can use PC's Pocket Plane ability but, by this time, the Pocket Plane exit will only return to your exit point in SOA. Stuff cached in containers in SOA will be there in ToB. I dealt with Mencar Pebblecrusher in ToB. (So, if you leave unfinished business in SOA...)
 
 ### Legal information
 
