@@ -2,7 +2,7 @@
 
 Mod for Baldur's Gate II Enhanced Edition (BG2:EE), classic Baldur's Gate II (BG2) and Baldur's Gate Trilogy (BGT)
 
-A Ron Joyal project.
+A Ron Joyal project. <br/>
 Version 2
 
 ## Contents
@@ -37,8 +37,17 @@ Oh, yes. The file `RJTourist.xxx` will be placed in the `Override` folder to tes
 
 ### Frequently Asked Questions (FAQ)
 
-Q: ??? <br/>
-A: What's to ask?
+Q: Can I host this mod on my web site? <br/>
+A: Let me know if you want (open Github issue), I would add your site to mirror list.
+
+Q: Is it work with EET? <br/>
+A: Unfortunately not. I don't have EE game now so I cannot test it with EET.
+
+Q: I want to add some extra content, can I? <br/>
+A: Feel free to contribute. You can create pull request to project's [Github](https://github.com/Roberciiik/ToB-Tourist).
+
+Q: How I can download this mod? <br/>
+A: Preferred way is to download package from [Github](https://github.com/Roberciiik/ToB-Tourist/releases). Please use released version as repository copy can be in progress. 
 
 ### Credits
 
@@ -59,6 +68,7 @@ ToB-Tourist was created with the following software:
 | Total Commander | http://www.ghisler.com/ |
 | WeiDU | http://www.weidu.org |
 | ConText | http://www.contexteditor.org |
+| Git | https://git-scm.com/ |
 
 ### Version history
 
@@ -66,6 +76,7 @@ ToB-Tourist was created with the following software:
     - Added backward compatibility with classic BG2 (and BGT).
     - Added Polish translations (thanks to morgan).
     - Updated item's description to be more aligned to the game world.
+    - Changed mod directory name to ToB-Tourist
     - Uploaded project to Github.
 
 - Version 1
