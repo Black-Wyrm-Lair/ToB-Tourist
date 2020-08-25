@@ -2,4 +2,6 @@
 @1    = ~This will only install on BG2:ToB/BGT/BG2:EE.~
 
 @10   = ~Tourist guide of Amn~
-@11   = ~This is a magical tourist book of Amn. You can use your finger to point location on the map, so the book will teleport you to requested location. It can be used to travel to areas no longer accessible from Tethyr.~
+@11   = ~This is a magical tourist book of Amn. You can use your finger to point location on the map, so the book will teleport you to requested location. It can be used to travel to areas no longer accessible from Tethyr.
+
+Weight: 25~
