@@ -39,6 +39,10 @@ LANGUAGE ~Polish (by morgan)~
          ~Polish~
          ~ToB-Tourist/Language/Polish/setup.tra~
 
+LANGUAGE ~Russian (by Austin)~
+		 ~Russian~
+		 ~ToB-Tourist/Language/Russian/setup.tra~
+
 
 // ToB Tourist setup
 BEGIN @0

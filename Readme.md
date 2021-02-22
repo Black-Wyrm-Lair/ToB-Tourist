@@ -56,6 +56,7 @@ A: Preferred way is to download package from [Github](https://github.com/Roberci
 | Ron Joyal	| Writer Programmer, Original author |
 | Roberciiik | Current maintainer |
 | morgan | Provided Polish translations |
+| Austin | Provided Russian translations |
 
 ### Tools
 
