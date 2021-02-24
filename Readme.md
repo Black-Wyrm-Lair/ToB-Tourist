@@ -3,14 +3,16 @@
 Mod for Baldur's Gate II Enhanced Edition (BG2:EE), classic Baldur's Gate II (BG2) and Baldur's Gate Trilogy (BGT)
 
 A Ron Joyal project. <br/>
-Version 2
+Version 3
 
 ## Contents
 
 1. [Introduction](#introduction)
 1. [Installation](#installation)
 1. [General information](#general-information)
+1. [EET compatibility note](#eet-compatibility-note)
 1. [Frequently Asked Questions (FAQ)](#frequently-asked-questions-faq)
+1. [Download alternatives](#download-alternatives)
 1. [Credits](#credits)
 1. [Tools](#tools)
 1. [Legal information](#legal-information)
@@ -35,19 +37,30 @@ If you encounter any problems or you have a question, please open an issue on th
 
 Oh, yes. The file `RJTourist.xxx` will be placed in the `Override` folder to test for the presence of this mod, should you feel the need.
 
+### EET compatibility note
+
+Enhanced Edition Trilogy (EET) is not supported right now. EET compatibility will be introduced in the future.
+
+Please note that EET allows you to access all areas unlocked already. If you started new game in BG1, SoD or SoA, you can return to the SoA areas once they're unlocked to you. This mod could be useful on EET if you play EET and start in the ToB scenario. Nevertheless, thanks to the mod you can teleport to both visited and unvisited locations from Amn.
+
 ### Frequently Asked Questions (FAQ)
+
+Q: How can I download this mod? <br/>
+A: Preferred way is to download latest package from [Github](https://github.com/Roberciiik/ToB-Tourist/releases). Please use released version as repository copy can be in progress. You can try with other download options listed in [Download section](#download-alternatives)
+
+Q: Does it work with EET? <br/>
+A: Please read [EET compatibility note](#eet-compatibility-note) 
 
 Q: Can I host this mod on my web site? <br/>
 A: Let me know if you want (open Github issue), I would add your site to mirror list.
 
-Q: Is it work with EET? <br/>
-A: Unfortunately not. I don't have EE game now so I cannot test it with EET.
-
 Q: I want to add some extra content, can I? <br/>
 A: Feel free to contribute. You can create pull request to project's [Github](https://github.com/Roberciiik/ToB-Tourist).
 
-Q: How I can download this mod? <br/>
-A: Preferred way is to download package from [Github](https://github.com/Roberciiik/ToB-Tourist/releases). Please use released version as repository copy can be in progress. 
+### Download alternatives
+
+- [Github](https://github.com/Roberciiik/ToB-Tourist/releases)
+- [Black Wyrm's Lair](http://dragonshoard.blackwyrmlair.net/download.php)
 
 ### Credits
 
@@ -57,6 +70,7 @@ A: Preferred way is to download package from [Github](https://github.com/Roberci
 | Roberciiik | Current maintainer |
 | morgan | Provided Polish translations |
 | Austin | Provided Russian translations |
+| Endarire | Provided EET compatibility note |
 
 ### Tools
 
@@ -73,16 +87,20 @@ ToB-Tourist was created with the following software:
 
 ### Version history
 
+- Version 3
+    - Added Russian translations (thanks to Austin).
+    - EET compatibility note added to README.
+
 - Version 2
     - Added backward compatibility with classic BG2 (and BGT).
     - Added Polish translations (thanks to morgan).
     - Updated item's description to be more aligned to the game world.
-    - Changed mod directory name to ToB-Tourist
+    - Changed mod directory name to ToB-Tourist.
     - Uploaded project to Github.
 
 - Version 1
     - Initial release BG2:EE compatible only.
-    - Add SOA touring capability to ToB. After leaving Saradush and excluding the Pocket Plane, the Tourist Guide will help you to teleport to the standard SOA areas, excluding quest specific areas. Return is either via book to Watcher's Keep, or area edge which by now is the ToB map areas; note that you cannot return via area edge to your initial point. Now, why you should want to do this is a good question to which I have as yet no answer. Play with it and let me know what you find out! (It seemed like a good idea at the time.) You can use PC's Pocket Plane ability but, by this time, the Pocket Plane exit will only return to your exit point in SOA. Stuff cached in containers in SOA will be there in ToB. I dealt with Mencar Pebblecrusher in ToB. (So, if you leave unfinished business in SOA...)
+    - Add SOA touring capability to ToB. After leaving Saradush and excluding the Pocket Plane, the Tourist Guide will help you to teleport to the standard SOA areas, excluding quest specific areas. Return is either via book to Watcher's Keep, or area edge which by now is the ToB map areas; note that you cannot return via area edge to your initial point. Now, why you should want to do this is a good question to which I have as yet no answer. Play with it and let me know what you find out! (It seemed like a good idea at the time.) You can use PC's Pocket Plane ability but, by this time, the Pocket Plane exit will only return to your exit point in SOA. Stuff cached in containers in SOA will be there in ToB. I dealt with Mencar Pebblecrusher in ToB. (So, if you leave unfinished business in SOA...).
 
 ### Legal information
 
