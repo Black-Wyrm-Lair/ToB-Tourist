@@ -89,7 +89,7 @@ ToB-Tourist was created with the following software:
 
 - Version 3
     - Added Russian translations (thanks to Austin).
-    - EET compatibility note added to README.
+    - EET compatibility note added to README (thanks to Endarire).
 
 - Version 2
     - Added backward compatibility with classic BG2 (and BGT).
