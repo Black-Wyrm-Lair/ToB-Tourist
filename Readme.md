@@ -1,5 +1,10 @@
 # Throne of Bhaal Tourist (ToB-Tourist)
 
+[![Release](https://img.shields.io/github/v/release/Roberciiik/ToB-Tourist?label=Latest%20release)](https://github.com/Roberciiik/ToB-Tourist/releases/latest)
+[![Downloads](https://img.shields.io/github/downloads/Roberciiik/ToB-Tourist/total.svg?color=blue&label=Downloads)](https://github.com/Roberciiik/ToB-Tourist/releases)
+[![SupportedGames](https://img.shields.io/static/v1?label=Supported%20games&message=BG2%3AEE%20%7C%20BG2%20%7C%20BGT&color=blue)](https://github.com/Roberciiik/ToB-Tourist)
+[![Language](https://img.shields.io/static/v1?label=Language&message=English%20%7C%20Polish%20%7C%20Russian&color=blue)](https://github.com/Roberciiik/ToB-Tourist)
+
 Mod for Baldur's Gate II Enhanced Edition (BG2:EE), classic Baldur's Gate II (BG2) and Baldur's Gate Trilogy (BGT)
 
 A Ron Joyal project. <br/>
@@ -46,10 +51,10 @@ Please note that EET allows you to access all areas unlocked already. If you sta
 ### Frequently Asked Questions (FAQ)
 
 Q: How can I download this mod? <br/>
-A: Preferred way is to download latest package from [Github](https://github.com/Roberciiik/ToB-Tourist/releases). Please use released version as repository copy can be in progress. You can try with other download options listed in [Download section](#download-alternatives)
+A: Preferred way is to download latest package from [Github](https://github.com/Roberciiik/ToB-Tourist/releases). Please use released version as repository copy can be in progress. You can try with other download options listed in [Download section](#download-alternatives).
 
 Q: Does it work with EET? <br/>
-A: Please read [EET compatibility note](#eet-compatibility-note) 
+A: Please read [EET compatibility note](#eet-compatibility-note).
 
 Q: Can I host this mod on my web site? <br/>
 A: Let me know if you want (open Github issue), I would add your site to mirror list.
