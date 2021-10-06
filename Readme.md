@@ -24,7 +24,7 @@ Version 3
 
 ### Introduction
 
-I thought it would be a neat idea in ToB to be able to go back and tour SOA, just for the hell of it. That's what this mod is all about. This places a book you can buy in Lazarus Librarus' Arcana Archives that will help you do this.
+I thought it would be a neat idea in ToB to be able to go back and tour SoA, just for the hell of it. That's what this mod is all about. This places a book you can buy in Lazarus Librarus' Arcana Archives that will help you do this.
 
 ### Installation
 
