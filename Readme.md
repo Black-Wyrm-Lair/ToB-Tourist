@@ -46,7 +46,7 @@ Oh, yes. The file `RJTourist.xxx` will be placed in the `Override` folder to tes
 
 Enhanced Edition Trilogy (EET) is not supported right now. EET compatibility will be introduced in the future.
 
-Please note that EET allows you to access all areas unlocked already. If you started new game in BG1, SoD or SoA, you can return to the SoA areas once they're unlocked to you. This mod could be useful on EET if you play EET and start in the ToB scenario. Nevertheless, thanks to the mod you can teleport to both visited and unvisited locations from Amn.
+Please note that EET allows you to access all areas unlocked already. If you started a new game in BG1, SoD or SoA, you can return to the SoA areas once they're unlocked to you. This mod could be useful on EET if you play EET and start in the ToB scenario. Nevertheless, thanks to the mod you can teleport to both visited and unvisited locations from Amn.
 
 ### Frequently Asked Questions (FAQ)
 
@@ -91,6 +91,9 @@ ToB-Tourist was created with the following software:
 | Git | https://git-scm.com/ |
 
 ### Version history
+
+- Repository master branch
+    - Added missing STATISTICS keyword to the description.
 
 - Version 3
     - Added Russian translations (thanks to Austin).
