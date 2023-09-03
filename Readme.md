@@ -96,6 +96,7 @@ ToB-Tourist was created with the following software:
     - Added missing STATISTICS keyword to the description.
     - Moved repository to Black-Wyrm-Lair GitHub organization.
     - Used %MOD_FOLDER% variable instead of plain mod name.
+    - Added Infinity Auto Packager as GitHub action (big thanks to AL|EN)
 
 - Version 3
     - Added Russian translations (thanks to Austin).
