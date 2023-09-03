@@ -94,6 +94,7 @@ ToB-Tourist was created with the following software:
 
 - Repository master branch
     - Added missing STATISTICS keyword to the description.
+    - Used %MOD_FOLDER% variable instead of plain mod name.
 
 - Version 3
     - Added Russian translations (thanks to Austin).
