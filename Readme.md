@@ -1,9 +1,9 @@
 # Throne of Bhaal Tourist (ToB-Tourist)
 
-[![Release](https://img.shields.io/github/v/release/Roberciiik/ToB-Tourist?label=Latest%20release)](https://github.com/Roberciiik/ToB-Tourist/releases/latest)
-[![Downloads](https://img.shields.io/github/downloads/Roberciiik/ToB-Tourist/total.svg?color=blue&label=Downloads)](https://github.com/Roberciiik/ToB-Tourist/releases)
-[![SupportedGames](https://img.shields.io/static/v1?label=Supported%20games&message=BG2%3AEE%20%7C%20BG2%20%7C%20BGT&color=blue)](https://github.com/Roberciiik/ToB-Tourist)
-[![Language](https://img.shields.io/static/v1?label=Language&message=English%20%7C%20Polish%20%7C%20Russian&color=blue)](https://github.com/Roberciiik/ToB-Tourist)
+[![Release](https://img.shields.io/github/v/release/Black-Wyrm-Lair/ToB-Tourist?label=Latest%20release)](https://github.com/Black-Wyrm-Lair/ToB-Tourist/releases/latest)
+[![Downloads](https://img.shields.io/github/downloads/Black-Wyrm-Lair/ToB-Tourist/total.svg?color=blue&label=Downloads)](https://github.com/Black-Wyrm-Lair/ToB-Tourist/releases)
+[![SupportedGames](https://img.shields.io/static/v1?label=Supported%20games&message=BG2%3AEE%20%7C%20BG2%20%7C%20BGT&color=blue)](https://github.com/Black-Wyrm-Lair/ToB-Tourist)
+[![Language](https://img.shields.io/static/v1?label=Language&message=English%20%7C%20Polish%20%7C%20Russian&color=blue)](https://github.com/Black-Wyrm-Lair/ToB-Tourist)
 
 Mod for Baldur's Gate II Enhanced Edition (BG2:EE), classic Baldur's Gate II (BG2) and Baldur's Gate Trilogy (BGT)
 
@@ -38,7 +38,7 @@ To reinstall or uninstall the mod, re-run `Setup-ToB-Tourist.exe` in your game d
 
 This should be compatible with all WeiDU mods.
 
-If you encounter any problems or you have a question, please open an issue on the project's [Github](https://github.com/Roberciiik/ToB-Tourist/issues) and I will do what I can to address the issue.
+If you encounter any problems or you have a question, please open an issue on the project's [GitHub](https://github.com/Black-Wyrm-Lair/ToB-Tourist/issues) and I will do what I can to address the issue.
 
 Oh, yes. The file `RJTourist.xxx` will be placed in the `Override` folder to test for the presence of this mod, should you feel the need.
 
@@ -51,20 +51,20 @@ Please note that EET allows you to access all areas unlocked already. If you sta
 ### Frequently Asked Questions (FAQ)
 
 Q: How can I download this mod? <br/>
-A: Preferred way is to download latest package from [Github](https://github.com/Roberciiik/ToB-Tourist/releases). Please use released version as repository copy can be in progress. You can try with other download options listed in [Download section](#download-alternatives).
+A: Preferred way is to download latest package from [GitHub](https://github.com/Black-Wyrm-Lair/ToB-Tourist/releases). Please use released version as repository copy can be in progress. You can try with other download options listed in [Download section](#download-alternatives).
 
 Q: Does it work with EET? <br/>
 A: Please read [EET compatibility note](#eet-compatibility-note).
 
 Q: Can I host this mod on my web site? <br/>
-A: Let me know if you want (open Github issue), I would add your site to mirror list.
+A: Let me know if you want (open GitHub issue), I would add your site to mirror list.
 
 Q: I want to add some extra content, can I? <br/>
-A: Feel free to contribute. You can create pull request to project's [Github](https://github.com/Roberciiik/ToB-Tourist).
+A: Feel free to contribute. You can create pull request to project's [GitHub](https://github.com/Black-Wyrm-Lair/ToB-Tourist).
 
 ### Download alternatives
 
-- [Github](https://github.com/Roberciiik/ToB-Tourist/releases)
+- [GitHub](https://github.com/Black-Wyrm-Lair/ToB-Tourist/releases)
 - [Black Wyrm's Lair](http://dragonshoard.blackwyrmlair.net/download.php)
 
 ### Credits
@@ -94,6 +94,7 @@ ToB-Tourist was created with the following software:
 
 - Repository master branch
     - Added missing STATISTICS keyword to the description.
+    - Moved repository to Black-Wyrm-Lair GitHub organization.
     - Used %MOD_FOLDER% variable instead of plain mod name.
 
 - Version 3
@@ -105,7 +106,7 @@ ToB-Tourist was created with the following software:
     - Added Polish translations (thanks to morgan).
     - Updated item's description to be more aligned to the game world.
     - Changed mod directory name to ToB-Tourist.
-    - Uploaded project to Github.
+    - Uploaded project to GitHub.
 
 - Version 1
     - Initial release BG2:EE compatible only.
