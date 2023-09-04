@@ -44,7 +44,7 @@ LANGUAGE ~Russian (by Austin)~
 
 
 // ToB Tourist setup
-BEGIN @0
+BEGIN @0 LABEL ~ToB-Tourist-Main~
 REQUIRE_PREDICATE GAME_IS ~ToB BGT BG2EE~ @1
 
 COPY ~%MOD_FOLDER%/rjtourist.xxx~ ~override/RJTourist.xxx~ // Flag presence
