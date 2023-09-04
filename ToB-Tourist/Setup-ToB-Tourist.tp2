@@ -1,6 +1,5 @@
-// Original author: Ron Joyal <nullset@sympatico.ca>
 BACKUP ~weidu_external/tob-tourist/backup~
-SUPPORT ~https://github.com/Black-Wyrm-Lair/ToB-Tourist/issues~
+SUPPORT ~https://github.com/Black-Wyrm-Lair/ToB-Tourist/issues~ // Original author: Ron Joyal <nullset@sympatico.ca>
 VERSION ~v3~
 
 README ~%MOD_FOLDER%/Docs/Redirect.html~
