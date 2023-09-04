@@ -1,6 +1,6 @@
 BACKUP ~weidu_external/tob-tourist/backup~
 SUPPORT ~https://github.com/Black-Wyrm-Lair/ToB-Tourist/issues~ // Original author: Ron Joyal <nullset@sympatico.ca>
-VERSION ~v3~
+VERSION ~v4~
 
 README ~%MOD_FOLDER%/Docs/Redirect.html~
 AUTO_TRA ~%MOD_FOLDER%/Language/%s/D~
@@ -19,13 +19,13 @@ ALWAYS
 		ACTION_DEFINE_ARRAY charsetsReloadArray BEGIN setup END
 		LAF ~HANDLE_CHARSETS~
 			INT_VAR
-			infer_charsets = 0
+				infer_charsets = 0
 			STR_VAR
-			tra_path = EVAL "%MOD_FOLDER%/Language"
-			iconv_path = EVAL "%MOD_FOLDER%/Bin/win32/iconv"
-			charset_table = charsetsTable
-			reload_array = charsetsReloadArray
-			noconvert_array = charsetsNoConvertArray
+				tra_path = EVAL "%MOD_FOLDER%/Language"
+				iconv_path = EVAL "%MOD_FOLDER%/Bin/win32/iconv"
+				charset_table = charsetsTable
+				reload_array = charsetsReloadArray
+				noconvert_array = charsetsNoConvertArray
 		END
 	END
 END

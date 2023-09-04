@@ -8,7 +8,7 @@
 Mod for Baldur's Gate II Enhanced Edition (BG2:EE), classic Baldur's Gate II (BG2) and Baldur's Gate Trilogy (BGT)
 
 A Ron Joyal project. <br/>
-Version 3
+Version 4
 
 ## Contents
 
@@ -51,7 +51,7 @@ Please note that EET allows you to access all areas unlocked already. If you sta
 ### Frequently Asked Questions (FAQ)
 
 Q: How can I download this mod? <br/>
-A: Preferred way is to download latest package from [GitHub](https://github.com/Black-Wyrm-Lair/ToB-Tourist/releases). Please use released version as repository copy can be in progress. You can try with other download options listed in [Download section](#download-alternatives).
+A: Preferred way is to download latest package from [GitHub](https://github.com/Black-Wyrm-Lair/ToB-Tourist/releases). Please use released version as repository copy can be in work-in-progress state. You can try with other download options listed in [Download section](#download-alternatives).
 
 Q: Does it work with EET? <br/>
 A: Please read [EET compatibility note](#eet-compatibility-note).
@@ -92,11 +92,12 @@ ToB-Tourist was created with the following software:
 
 ### Version history
 
-- Repository master branch
+- Version 4
     - Added missing STATISTICS keyword to the description.
     - Moved repository to Black-Wyrm-Lair GitHub organization.
     - Used %MOD_FOLDER% variable instead of plain mod name.
-    - Added Infinity Auto Packager as GitHub action (big thanks to AL|EN)
+    - Added Project Infinity support (by AL|EN).
+    - Added Infinity Auto Packager as GitHub action (big thanks to AL|EN).
 
 - Version 3
     - Added Russian translations (thanks to Austin).
