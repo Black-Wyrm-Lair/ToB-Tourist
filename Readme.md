@@ -75,6 +75,7 @@ A: Feel free to contribute. You can create pull request to project's [GitHub](ht
 | Roberciiik | Current maintainer |
 | morgan | Provided Polish translations |
 | Austin | Provided Russian translations |
+| XsidoGamer | Provided Spanish translations |
 | Endarire | Provided EET compatibility note |
 
 ### Tools
