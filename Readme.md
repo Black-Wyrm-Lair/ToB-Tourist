@@ -3,7 +3,7 @@
 [![Release](https://img.shields.io/github/v/release/Black-Wyrm-Lair/ToB-Tourist?label=Latest%20release)](https://github.com/Black-Wyrm-Lair/ToB-Tourist/releases/latest)
 [![Downloads](https://img.shields.io/github/downloads/Black-Wyrm-Lair/ToB-Tourist/total.svg?color=blue&label=Downloads)](https://github.com/Black-Wyrm-Lair/ToB-Tourist/releases)
 [![SupportedGames](https://img.shields.io/static/v1?label=Supported%20games&message=BG2%3AEE%20%7C%20BG2%20%7C%20BGT&color=blue)](https://github.com/Black-Wyrm-Lair/ToB-Tourist)
-[![Language](https://img.shields.io/static/v1?label=Language&message=English%20%7C%20Polish%20%7C%20Russian&color=blue)](https://github.com/Black-Wyrm-Lair/ToB-Tourist)
+[![Language](https://img.shields.io/static/v1?label=Language&message=English%20%7C%20Polish%20%7C%20Russian%20%7C%20Spanish&color=blue)](https://github.com/Black-Wyrm-Lair/ToB-Tourist)
 
 Mod for Baldur's Gate II Enhanced Edition (BG2:EE), classic Baldur's Gate II (BG2) and Baldur's Gate Trilogy (BGT)
 
