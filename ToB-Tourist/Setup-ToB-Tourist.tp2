@@ -14,7 +14,7 @@ ALWAYS
 			"italian" => "CP1252"
 			"polish" => "CP1250"
 			"russian" => "CP1251"
-			"castilian" => "CP1252"
+			"spanish" => "CP1252"
 		END
 		ACTION_DEFINE_ARRAY charsetsReloadArray BEGIN setup END
 		LAF ~HANDLE_CHARSETS~
@@ -41,6 +41,10 @@ LANGUAGE ~Polish (by morgan)~
 LANGUAGE ~Russian (by Austin)~
 		 ~Russian~
 		 ~%MOD_FOLDER%/Language/Russian/setup.tra~
+		 
+LANGUAGE ~Espanol (Por XsidoGamer)~
+         ~Spanish~
+         ~%MOD_FOLDER%/Language/Spanish/setup.tra~
 
 
 // ToB Tourist setup
