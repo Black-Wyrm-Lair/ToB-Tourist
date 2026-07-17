@@ -53,8 +53,14 @@ Please note that EET allows you to access all areas unlocked already. If you sta
 Q: How can I download this mod? <br/>
 A: Preferred way is to download latest package from [GitHub](https://github.com/Black-Wyrm-Lair/ToB-Tourist/releases). Please use released version as repository copy can be in work-in-progress state. You can try with other download options listed in [Download section](#download-alternatives).
 
+Q: How does the mod work?
+A: Buy a tourist guide book from Lazarus Librarus' Arcana Archives and then talk to it so you can teleport to desired location from SoA.
+
 Q: Does it work with EET? <br/>
 A: Please read [EET compatibility note](#eet-compatibility-note).
+
+Q: How to go back to SoD? <br/>
+A: Currently, you can visit only SoA part of the game using this modification. BG1 and SoD part of the game are out of scope of this modification, but it could be implemented in the future for BGT and EET installations.
 
 Q: Can I host this mod on my web site? <br/>
 A: Let me know if you want (open GitHub issue), I would add your site to mirror list.
@@ -93,6 +99,11 @@ ToB-Tourist was created with the following software:
 
 ### Version history
 
+- Future version
+    - Added Spanish tranlsation, by XsidoGamer
+    - Updated InfinityAutoPackager
+    - Updated Polish translation
+
 - Version 4
     - Added missing STATISTICS keyword to the description.
     - Moved repository to Black-Wyrm-Lair GitHub organization.
@@ -118,3 +129,10 @@ ToB-Tourist was created with the following software:
 ### Legal information
 
 *BALDUR'S GATE II: SHADOWS OF AMN Developed and &copy; 2000 BioWare Corp. All Rights Reserved. BALDUR'S GATE II: THRONE OF BHAAL Developed and &copy; 2001 BioWare Corp. All Rights Reserved. Baldur's Gate, Shadows of Amn, Tales of the Sword Coast, Forgotten Realms, the Forgotten Realms logo, Advanced Dungeons & Dragons, the AD&D logo, TSR and the TSR logo, and the Wizards of the Coast logo, are trademarks of the Wizards of the Coast, Inc., a subsidiary of Hasbro, Inc., and are used by Interplay Entertainment Corp. under license. All Rights Reserved. BioWare, the BioWare Infinity Engine and the BioWare logo are the trademarks of BioWare Corp. All Rights Reserved. Black Isle Studios and the Black Isle Studios logo are trademarks of Interplay Entertainment Corp. All Rights Reserved. Exclusively licensed and distributed by Interplay Entertainment Corp. All other trademarks and copyrights are property of their respective owners.*
+
+*[BG1]: Baldur's Gate
+*[SoA]: Baldur's Gate II: Shadows of Amn
+*[ToB]: Baldur's Gate II: Throne of Bhaal
+*[SoD]: Baldur's Gate: Siege of Dragonspear
+*[BGT]: Baldur's Gate Trilogy
+*[EET]: Baldur's Gate: Enhanced Edition Trilogy
