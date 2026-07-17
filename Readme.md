@@ -100,8 +100,8 @@ ToB-Tourist was created with the following software:
 ### Version history
 
 - Future version
-    - Added Spanish tranlsation, by XsidoGamer
-    - Updated InfinityAutoPackager
+    - Added Spanish tranlsation (by XsidoGamer)
+    - Updated InfinityAutoPackager (by AL|EN)
     - Updated Polish translation
 
 - Version 4
@@ -129,10 +129,3 @@ ToB-Tourist was created with the following software:
 ### Legal information
 
 *BALDUR'S GATE II: SHADOWS OF AMN Developed and &copy; 2000 BioWare Corp. All Rights Reserved. BALDUR'S GATE II: THRONE OF BHAAL Developed and &copy; 2001 BioWare Corp. All Rights Reserved. Baldur's Gate, Shadows of Amn, Tales of the Sword Coast, Forgotten Realms, the Forgotten Realms logo, Advanced Dungeons & Dragons, the AD&D logo, TSR and the TSR logo, and the Wizards of the Coast logo, are trademarks of the Wizards of the Coast, Inc., a subsidiary of Hasbro, Inc., and are used by Interplay Entertainment Corp. under license. All Rights Reserved. BioWare, the BioWare Infinity Engine and the BioWare logo are the trademarks of BioWare Corp. All Rights Reserved. Black Isle Studios and the Black Isle Studios logo are trademarks of Interplay Entertainment Corp. All Rights Reserved. Exclusively licensed and distributed by Interplay Entertainment Corp. All other trademarks and copyrights are property of their respective owners.*
-
-*[BG1]: Baldur's Gate
-*[SoA]: Baldur's Gate II: Shadows of Amn
-*[ToB]: Baldur's Gate II: Throne of Bhaal
-*[SoD]: Baldur's Gate: Siege of Dragonspear
-*[BGT]: Baldur's Gate Trilogy
-*[EET]: Baldur's Gate: Enhanced Edition Trilogy
